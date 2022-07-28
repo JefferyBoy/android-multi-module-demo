@@ -2,6 +2,7 @@ package com.github.jeffery
 
 import android.os.Bundle
 import com.github.jeffery.base.BaseActivity
+import com.github.jeffery.base.ModuleMediator
 import com.github.jeffery.databinding.ActivityMainBinding
 
 class MainActivity : BaseActivity() {
@@ -14,19 +15,19 @@ class MainActivity : BaseActivity() {
         setContentView(binding.root)
 
         binding.btnAccount.setOnClickListener {
-            startActivity("com.github.jeffery.account.AccountActivity")
+            startActivity(ModuleMediator.ACTIVITY_ACCOUNT_CLASS)
         }
         binding.btnPublish.setOnClickListener {
-            startActivity("com.github.jeffery.publish.PublishActivity")
+            startActivity(ModuleMediator.ACTIVITY_PUBLISH_CLASS)
         }
         binding.btnStore.setOnClickListener {
-            startActivity("com.github.jeffery.store.StoreActivity")
+            startActivity(ModuleMediator.ACTIVITY_STORE_CLASS)
         }
         binding.btnSetting.setOnClickListener {
-            startActivity("com.github.jeffery.setting.SettingActivity")
+            startActivity(ModuleMediator.ACTIVITY_SETTING_CLASS)
         }
         binding.btnVideo.setOnClickListener {
-            startActivity("com.github.jeffery.video.VideoActivity")
+            startActivity(ModuleMediator.ACTIVITY_VIDEO_CLASS)
         }
     }
 }

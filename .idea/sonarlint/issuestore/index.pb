@@ -22,8 +22,6 @@ X
 P
  app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
 ]
--app-account/src/main/AndroidManifestDebug.xml,3/a/3a60575d4f488d7c80b0f6f06fe99b7ae23eedd2
-]
 -app-publish/src/main/AndroidManifestDebug.xml,3/a/3a233f3e721d03f3ede5a6ce13983dc4b5c9b3ee
 ]
 -app-setting/src/main/AndroidManifestDebug.xml,1/8/181f2d45e7dc57f295c188480b8e9391da37b160
@@ -37,8 +35,6 @@ n
 >app-base/src/main/java/com/github/jeffery/base/BaseFragment.kt,a/5/a58f086cbfbed4983d0b659012c90d9134b56d5d
 t
 Dapp-account/src/main/java/com/github/jeffery/account/debug/Test.java,0/1/0156a91b3432667d6197b0755cfbebb3d3fb0723
-X
-(app-account/src/main/AndroidManifest.xml,7/1/71b99489f48353a3d20a6e1c28b9801f4a7088be
 w
 Gapp-account/src/main/java/com/github/jeffery/account/AccountActivity.kt,4/d/4d6e814f645cb8613759bfe872040e9682e2a3c7
 n
@@ -51,12 +47,8 @@ q
 Alib-data/src/main/java/com/github/jeffery/data/kv/KvDataSource.kt,7/4/74951cb7aea5f2e5de68ce867dc39cc3f45aad57
 u
 Elib-data/src/main/java/com/github/jeffery/data/sqlite/DbDataSource.kt,b/c/bcb90204cf966889b4bc1fdc1a013c826d5751fc
-f
-6lib-data/src/main/java/com/github/jeffery/data/Data.kt,b/9/b94a1b7e852019afc15940eb41bb71b503c70e8e
 u
 Elib-data/src/main/java/com/github/jeffery/data/http/HttpDataSource.kt,e/0/e0731a21004eb2765a7313724d66bbc3facaff3c
-d
-4app/src/main/java/com/github/jeffery/MainActivity.kt,d/d/dd671c7ef39e3c2763121548129db09417befa7d
 F
 app-store/build.gradle,1/f/1f5b48310216f91bb0cde1df57bc65fb953baa2c
 H
