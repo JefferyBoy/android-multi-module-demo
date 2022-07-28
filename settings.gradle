@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "modulefy_architecture"
+include ':app'
+include ':app-base'
+include ':app-setting'
+include ':lib-data'
+include ':app-account'
+include ':app-store'
+include ':app-video'
+include ':app-publish'

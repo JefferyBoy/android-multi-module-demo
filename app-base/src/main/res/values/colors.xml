@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black_50">#eceff1</color>
+    <color name="black_100">#f5f5f5</color>
+    <color name="black_200">#eeeeee</color>
+    <color name="black_300">#e0e0e0</color>
+    <color name="black_400">#bdbdbd</color>
+    <color name="black_500">#9e9e9e</color>
+    <color name="black_600">#757575</color>
+    <color name="black_700">#616161</color>
+    <color name="black_800">#424242</color>
+    <color name="black_900">#212121</color>
+    <color name="black">#000000</color>
+
+    <color name="green_50">#e8f5e9</color>
+    <color name="green_100">#c8e6c9</color>
+    <color name="green_200">#a5d6a7</color>
+    <color name="green_300">#81c784</color>
+    <color name="green_400">#66bb6a</color>
+    <color name="green_500">#4caf50</color>
+    <color name="green_600">#43a047</color>
+    <color name="green_700">#388e3c</color>
+    <color name="green_800">#2e7d32</color>
+    <color name="green_900">#1b5e20</color>
+    <color name="green">#00ff00</color>
+
+    <color name="green_a_100">#b9f6ca</color>
+    <color name="green_a_200">#69f0ae</color>
+    <color name="green_a_300">#00e676</color>
+    <color name="green_a_400">#00c853</color>
+
+
+    <color name="pink_50">#fce4ec</color>
+    <color name="pink_100">#f8bbd0</color>
+    <color name="pink_200">#f48fb1</color>
+    <color name="pink_300">#f06292</color>
+    <color name="pink_400">#ec407a</color>
+    <color name="pink_500">#e91e63</color>
+    <color name="pink_600">#d81b60</color>
+    <color name="pink_700">#c2185b</color>
+    <color name="pink_800">#ad1457</color>
+    <color name="pink_900">#880e4f</color>
+
+</resources>

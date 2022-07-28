@@ -1,0 +1,15 @@
+apply from: '../app.gradle'
+apply plugin: 'org.jetbrains.kotlin.android'
+
+android {
+    resourcePrefix 'video_'
+    defaultConfig {
+        if (!isRelease) {
+            applicationId 'com.github.jeffery.video'
+            versionCode 1
+            versionName '1.0'
+        }
+    }
+}
+dependencies {
+}

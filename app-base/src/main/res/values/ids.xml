@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="btn_ok" type="id"/>
+    <item name="btn_cancel" type="id"/>
+    <item name="btn_next" type="id"/>
+    <item name="btn_previous" type="id"/>
+    <item name="btn_delete" type="id"/>
+    <item name="btn_clear" type="id"/>
+    <item name="btn_add" type="id"/>
+    <item name="btn_increase" type="id"/>
+    <item name="btn_decrease" type="id"/>
+
+    <item name="tv_title" type="id" />
+    <item name="tv_sub_title" type="id" />
+    <item name="tv_title2" type="id" />
+    <item name="tv_sub_title2" type="id" />
+    <item name="tv_content" type="id" />
+    <item name="tv_content2" type="id" />
+    <item name="tv_content3" type="id" />
+    <item name="tv_content4" type="id" />
+    <item name="tv_content5" type="id" />
+    <item name="tv_text" type="id" />
+    <item name="tv_text2" type="id" />
+    <item name="tv_text3" type="id" />
+    <item name="tv_text4" type="id" />
+    <item name="tv_text5" type="id" />
+    <item name="tv_item" type="id" />
+    <item name="tv_item2" type="id" />
+    <item name="tv_item3" type="id" />
+    <item name="tv_item4" type="id" />
+    <item name="tv_item5" type="id" />
+
+    <item name="group_1" type="id" />
+    <item name="group_2" type="id" />
+    <item name="group_3" type="id" />
+    <item name="group_4" type="id" />
+    <item name="group_5" type="id" />
+</resources>

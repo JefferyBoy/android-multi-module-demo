@@ -1,0 +1,14 @@
+apply from: '../app.gradle'
+
+android {
+    resourcePrefix 'setting_'
+    defaultConfig {
+        if (!isRelease) {
+            applicationId 'com.github.jeffery.setting'
+            versionCode 1
+            versionName '1.0'
+        }
+    }
+}
+dependencies {
+}

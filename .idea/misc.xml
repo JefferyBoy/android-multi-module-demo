@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ASMSmaliIdeaPluginConfiguration">
+    <asm skipDebug="true" skipFrames="true" skipCode="false" expandFrames="false" />
+    <groovy codeStyle="LEGACY" />
+  </component>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app-account/src/main/res/layout/activity_account.xml" value="0.15833333333333333" />
+        <entry key="app-base/src/main/res/drawable/bg_button.xml" value="0.1" />
+        <entry key="app-base/src/main/res/drawable/shape_rect_round.xml" value="0.1745" />
+        <entry key="app-publish/src/main/res/layout/publish_activity_publish.xml" value="0.28425925925925927" />
+        <entry key="app-setting/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.1745" />
+        <entry key="app-setting/src/main/res/layout/activity_setting.xml" value="0.28055555555555556" />
+        <entry key="app-setting/src/main/res/layout/setting_activity_setting.xml" value="0.28425925925925927" />
+        <entry key="app-store/src/main/res/layout/store_activity_store.xml" value="0.15833333333333333" />
+        <entry key="app-video/src/main/res/layout/video_activity_video.xml" value="0.15833333333333333" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.3476923076923077" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

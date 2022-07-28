@@ -1,0 +1,51 @@
+// 各独立模块的相同配置项
+// 在个模块中引用配置
+apply {
+    if (isRelease) {
+        plugins.apply('com.android.library')
+    } else {
+        plugins.apply('com.android.application')
+    }
+    plugins.apply('org.jetbrains.kotlin.android')
+}
+android {
+    compileSdk buildVersion.compileSdk
+    defaultConfig {
+        minSdk buildVersion.minSdk
+        targetSdk buildVersion.targetSdk
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
+    }
+    sourceSets {
+        main {
+            if(isRelease) {
+                manifest.srcFile 'src/main/AndroidManifest.xml'
+                java.exclude '**/debug/**'
+            }else {
+                manifest.srcFile 'src/main/AndroidManifestDebug.xml'
+            }
+        }
+    }
+    buildFeatures {
+        viewBinding true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+    implementation project(':app-base')
+    implementation project(':lib-data')
+}

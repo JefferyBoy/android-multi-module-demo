@@ -1,0 +1,15 @@
+apply from: '../app.gradle'
+apply plugin: 'org.jetbrains.kotlin.android'
+
+android {
+    resourcePrefix 'account_'
+    defaultConfig {
+        if (!isRelease) {
+            applicationId 'com.github.jeffery.account'
+            versionCode 1
+            versionName '1.0'
+        }
+    }
+}
+dependencies {
+}
