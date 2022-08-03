@@ -18,6 +18,10 @@
             <option value="$PROJECT_DIR$/app-store" />
             <option value="$PROJECT_DIR$/app-video" />
             <option value="$PROJECT_DIR$/lib-data" />
+            <option value="$PROJECT_DIR$/lib-imgloader" />
+            <option value="$PROJECT_DIR$/lib-logging" />
+            <option value="$PROJECT_DIR$/lib-permissions" />
+            <option value="$PROJECT_DIR$/lib-util" />
           </set>
         </option>
       </GradleProjectSettings>

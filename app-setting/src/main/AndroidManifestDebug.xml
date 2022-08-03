@@ -3,6 +3,7 @@
     package="com.github.jeffery.setting">
 
     <application
+        android:name=".debug.App"
         android:theme="@style/MyTheme">
         <activity
             android:name=".SettingActivity"
